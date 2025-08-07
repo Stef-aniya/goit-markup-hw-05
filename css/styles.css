@@ -456,19 +456,25 @@ margin-bottom: 16px;
     fill: #f4f4fd;
 }
 .foot-link-sub{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-justify-content: center;
-align-items: center;
-margin-top: 100px;
-margin-left: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
-.label{
-    margin-top: 140px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.butt-foot{
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    color: #F4F4FD;
+    font-family: "Roboto";
+    text-align: left;
+}
+.svg{
+    margin-right: 8px;
+}
+.foot-form{
+    align-items: center;
 }
