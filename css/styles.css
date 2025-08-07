@@ -191,28 +191,38 @@ color: #404bbf;
 }
 /* Modal */
 .modal-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 999;
-    opacity: 0;
-    pointer-events: none;
+    opacity: 1;
+    pointer-events: auto;
     transition: opacity 250ms;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.modal-overlay.is-open{
+/* .modal-overlay.is-open{
 opacity: 1;
 pointer-events: auto;
-}
+} */
 .modal{
     max-width: 408px;
     max-height: 584px;
     overflow-y: auto;
     background-color: #FFFFFF;
+    border-radius: 4px;
+}
+.modal-text-first{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    padding-top: 72px;
 }
 
  /* Strategy */
