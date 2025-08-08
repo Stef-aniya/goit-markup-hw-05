@@ -53,39 +53,6 @@
                     Order Service
                     </button>
                     </div>
-    <!-- Modal -->
-        <div class="modal-overlay">
-            <div class="modal">
-                <p class="modal-text-first">Leave your contacts and we will call you back</p>
-                <form class="form-main">
-                    <p class="main-mod">Name</p>
-                    <label for="id-name">
-                        <input type="name" id="id-name" autofocus>
-                        <svg class="svg-main" width="18" height="18">
-                            <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"></use>
-                        </svg>
-                    </label>
-                    <p class="main-mod">Phone</p>
-                    <label for="id-number">
-                        <svg class="svg-main" width="13" height="13">
-                            <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
-                        </svg>
-                        <input type="tel" id="id-number">
-                    </label>
-                    <p class="main-mod">Email</p>
-                    <label for="id-email">
-                        <svg class="svg-main" width="16" height="16"> 
-                            <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
-                        </svg>
-                        <input type="email" id="id-email">
-                    </label>
-                    <p class="main-mod">Comment</p>
-                    <label for="id-comment">
-                        <input type="comment" id="id-comment">
-                    </label>
-                </form>
-            </div>
-        </div>
                 </section>
     <!--Strategy -->
             <section class="section">
@@ -463,5 +430,66 @@
                 </div>
             </div>
         </footer>
+            <!-- Modal -->
+        <div class="rewiew-popup">
+            <div class="rewiew-popup-wrapper">
+                <button type="button" class="rewiew-popup-closed-btn">
+                    <svg class="rewiew-popup-svg" width="8" height="8">
+                            <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+                        </svg>
+                </button>
+                <p class="rewiew-popup-title">Leave your contacts and we will call you back</p>
+                <form>
+                    <div class="form-field-wrapper">
+                        <label for="id_name" class="form-field-label">
+                            Name
+                        </label>
+                            <div class="form-field-input-wrapper">
+                                <input type="text" id="id_name" class="form-field-text-input">
+                                <svg class="svg-main" width="18" height="18">
+                                    <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <label for="id_number" class="form-field-label">
+                            Phone
+                        </label>
+                            <div class="form-field-input-wrapper">
+                                <input type="tel" id="id_number" class="form-field-text-input">
+                                <svg class="svg-main" width="13" height="13">
+                                    <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <label for="id_email" class="form-field-label">
+                            Email
+                        </label>
+                            <div class="form-field-input-wrapper">
+                                <input type="email" id="id_email" class="form-field-text-input">
+                                <svg class="svg-main" width="16" height="16"> 
+                                    <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <label for="id_comment" class="form-field-label">
+                            Comment
+                        </label>
+                        <textarea name="comment" id="id_comment" placeholder="Text input" class="form-field-textaria"></textarea>
+                    </div>  
+                    <div class="form-field-privacy">
+                        <input type="checkbox" id="id-checkbox">
+                        <label for="id-checkbox" class="form-label-checkbox">
+                            I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="form-btn-submit">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
