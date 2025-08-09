@@ -677,3 +677,9 @@ margin-bottom: 16px;
 .privacy-form{
     color: #4d5ae5;
 }
+.form-field-wrapper:focus ~ svg{
+    fill: #ffffff;
+}
+.form-field-wrapper:hover ~ svg{
+    fill: #ffffff;
+}
