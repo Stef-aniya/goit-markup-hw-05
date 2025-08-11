@@ -738,12 +738,13 @@ margin-bottom: 16px;
 .form-field-input-wrapper {
     margin-bottom: 8px;
 }
-.foot-inpt,
+.foot-inpt{
+    width: 264px;
+}
 .form-field-text-input {
     height: 40px;
     width: 100%; 
     box-sizing: border-box;
-    width: 264px;
 }
 .form-field-privacy {
     margin-bottom: 24px;
