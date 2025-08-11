@@ -608,7 +608,6 @@ margin-bottom: 16px;
 }
 .form-field-text-input{
     border-radius: 4px;
-    height: 40px;
     width: 100%;
     padding: 22px 24px 22px 64px;
     outline: none;
@@ -618,9 +617,6 @@ margin-bottom: 16px;
     outline: transparent;
     padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-field-text-input{
-    height: 40px;
 }
 .form-field-text-input:focus{
     border-color: #4D5AE5; 
@@ -742,7 +738,6 @@ margin-bottom: 16px;
     width: 264px;
 }
 .form-field-text-input {
-    height: 40px;
     width: 100%; 
     box-sizing: border-box;
 }
