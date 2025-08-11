@@ -486,7 +486,7 @@
                         </label>
                         <textarea name="user-comment" id="user-comment" placeholder="Text input" class="form-field-textaria"></textarea>
                     </div>  
-                    <div class="form-field-privacy" style="margin-bottom: 8px;">
+                    <div class="form-field-privacy" style="margin-bottom: 24px;">
                         <input
                             name="user-privacy"
                             type="checkbox"
@@ -494,13 +494,18 @@
                             value="true"
                             class="visually-hidden"
                             required
+                            style="height: 40px;"
                         >
                         <label for="user-privacy" class="form-label-checkbox">
-                            <span class="form-custom-checkbox"></span>
+                            <span class="form-custom-checkbox" style="margin-bottom: 8px;">
+                            <svg class="svg-check" width="10" height="8">
+                                <use href="./images/symbol3.svg#icon-Checkbox"></use>
+                            </svg>
+                            </span>
                             I accept the terms and conditions of the
                             <a class="privacy-form" href="#">Privacy Policy</a>
                         </label>
-                    </div>
+</div>
                     <button type="submit" class="form-btn-submit">
                         Send
                     </button>
