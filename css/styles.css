@@ -729,10 +729,30 @@ margin-bottom: 16px;
 .svg-check {
     width: 10px;
     height: 8px;
+    display: block;
 }
-.foot-inpt-mis{
-height: 40px;
+.form-field-wrapper {
+    margin-bottom: 8px;
+}
+.form-field-input-wrapper {
+    margin-bottom: 8px;
+}
+.foot-inpt,
+.form-field-text-input {
+    height: 40px;
+    width: 264px; 
+    box-sizing: border-box;
 }
 .form-field-privacy {
-    margin-bottom: 8px;
+    margin-bottom: 24px;
+}
+.foot-inpt::placeholder {
+    color: #ffffff;
+}
+#user-privacy:checked + .form-label-checkbox .form-custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+}
+#user-privacy:checked + .form-label-checkbox .form-custom-checkbox svg {
+    fill: #F4F4FD;
 }

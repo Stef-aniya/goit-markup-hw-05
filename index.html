@@ -417,23 +417,25 @@
                 </div>
                 <div class="cont-foot">
                     <p class="foot-link-sub">Subscribe</p>
-                        <form class="foot-form">
+                        <form class="foot-form" novalidate>
                             <label for="foot-email" class="label-foot">
                                 <input
-                                type="email"
-                                name="foot-email"
                                 id="foot-email"
+                                name="foot-email"
+                                type="email"
                                 placeholder="E-mail"
-                                class="foot-inpt-mis"
-                                >
+                                class="foot-inpt"
+                                required
+                                />
                             </label>
+
                             <button type="submit" class="butt-foot">
                                 Subscribe
                                 <svg class="svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
                                 </svg>
                             </button>
-                        </form>
+                            </form>
                 </div>
             </div>
         </footer>
@@ -486,26 +488,25 @@
                         </label>
                         <textarea name="user-comment" id="user-comment" placeholder="Text input" class="form-field-textaria"></textarea>
                     </div>  
-                    <div class="form-field-privacy" style="margin-bottom: 24px;">
-                        <input
-                            name="user-privacy"
-                            type="checkbox"
-                            id="user-privacy"
-                            value="true"
-                            class="visually-hidden"
-                            required
-                            style="height: 40px;"
-                        >
-                        <label for="user-privacy" class="form-label-checkbox">
-                            <span class="form-custom-checkbox" style="margin-bottom: 8px;">
-                            <svg class="svg-check" width="10" height="8">
-                                <use href="./images/symbol3.svg#icon-Checkbox"></use>
-                            </svg>
-                            </span>
-                            I accept the terms and conditions of the
-                            <a class="privacy-form" href="#">Privacy Policy</a>
-                        </label>
-</div>
+                    <div class="form-field-privacy">
+                    <input
+                        id="user-privacy"
+                        name="user-privacy"
+                        type="checkbox"
+                        value="true"
+                        class="visually-hidden"
+                        required
+                    />
+                    <label for="user-privacy" class="form-label-checkbox">
+                        <span class="form-custom-checkbox">
+                        <svg class="svg-check" width="10" height="8" aria-hidden="true" focusable="false">
+                            <use href="./images/symbol3.svg#icon-Checkbox"></use>
+                        </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="privacy-form" href="#">Privacy Policy</a>
+                    </label>
+                    </div>
                     <button type="submit" class="form-btn-submit">
                         Send
                     </button>
