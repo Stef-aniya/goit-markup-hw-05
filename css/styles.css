@@ -691,7 +691,9 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-bottom: 8px;
 }
+
 .form-field-input-wrapper svg{
     position: absolute;
     left: 16px;
@@ -723,4 +725,8 @@ margin-bottom: 16px;
 }
 .form-field-wrapper:hover ~ svg{
     fill: #ffffff;
+}
+.svg-check {
+    width: 10px;
+    height: 8px;
 }
