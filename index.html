@@ -418,10 +418,11 @@
                 <div class="cont-foot">
                     <p class="foot-link-sub">Subscribe</p>
                         <form class="foot-form">
-                            <label for="foot-but">
-                                <input type="email" placeholder="E-mail" name="foot-mail" id="foot-but">
-                            </label>
-                            <button type="button" class="butt-foot"> Subscribe
+                            <div class="foot-link-div">
+                                <label for="foot-but" class="label-foot"></label>
+                                    <input type="email" placeholder="E-mail" name="foot-mail" id="foot-but" class="foot-inpt">
+                            </div>
+                            <button type="submit" class="butt-foot"> 
                                 <svg class="svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
                                 </svg>
@@ -480,7 +481,7 @@
                         <textarea name="user-comment" id="user-comment" placeholder="Text input" class="form-field-textaria"></textarea>
                     </div>  
                     <div class="form-field-privacy">
-                        <input name="user-privacy" type="checkbox" id="user-privacy" value="true" class="visually-hidden">
+                        <input name="user-privacy" type="checkbox" id="user-privacy" value="true" class="visually-hidden" required>
                         <label for="user-privacy" class="form-label-checkbox">
                             <span class="form-custom-checkbox">
                                 <svg class="svg-check" width="10" height="8"> 
