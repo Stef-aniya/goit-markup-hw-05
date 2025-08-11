@@ -743,6 +743,7 @@ margin-bottom: 16px;
     height: 40px;
     width: 100%; 
     box-sizing: border-box;
+    width: 264px;
 }
 .form-field-privacy {
     margin-bottom: 24px;
