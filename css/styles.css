@@ -607,6 +607,7 @@ margin-bottom: 16px;
     margin-bottom: 4px;
 }
 .form-field-text-input{
+    height: 40px;
     border-radius: 4px;
     width: 100%;
     padding: 22px 24px 22px 64px;
@@ -729,7 +730,6 @@ margin-bottom: 16px;
 }
 .form-field-wrapper {
     margin-bottom: 8px;
-    margin-bottom: 16px;
 }
 .form-field-input-wrapper {
     margin-bottom: 8px;
@@ -753,4 +753,7 @@ margin-bottom: 16px;
 }
 #user-privacy:checked + .form-label-checkbox .form-custom-checkbox svg {
     fill: #F4F4FD;
+}
+.textarea-div{
+    margin-bottom: 16px;
 }
