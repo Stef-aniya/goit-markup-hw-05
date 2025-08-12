@@ -754,3 +754,9 @@ margin-bottom: 16px;
 #user-privacy:checked + .form-label-checkbox .form-custom-checkbox svg {
     fill: #F4F4FD;
 }
+.form-field-wrapper:has(input) {
+    margin-bottom: 8px;
+}
+.form-field-wrapper:has(textarea) {
+    margin-bottom: 16px;
+}
