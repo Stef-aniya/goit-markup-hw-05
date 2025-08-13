@@ -509,7 +509,11 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 .cont-foot{
-padding-left: auto;
+margin-left: auto;
+}
+.label-foot{
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Modal */
 .rewiew-popup{
@@ -652,6 +656,9 @@ padding-left: auto;
 .form-field-textaria:focus{
     border-color: #4D5AE5; 
 }
+.form-field-textaria::placeholder{
+    color: #8E8F99;
+}
 .form-field-privacy{
     margin-bottom: 24px;
 }
@@ -767,4 +774,7 @@ padding-left: auto;
 }
 ::placeholder{
     color: #2E2F42;
+}
+.svg{
+    fill: #FFFFFF;
 }
